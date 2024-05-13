@@ -1,0 +1,47 @@
+.filter{
+    padding-top: 20px;
+    margin-bottom: 20px;
+
+    &__form{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    &__input{
+        height: 30px;
+        padding-left: 5px;
+        border-radius: 5px;
+    }
+
+    &__select{
+        border-radius: 5px;
+        height: 34px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    &__button{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 700;
+        outline: none;
+        transition: all 0.2s;
+        border: 1px solid transparent;
+
+        &:hover{
+            background: rgb(32, 35, 41);
+            outline-color: none;
+            border: 1px solid #ffffff;
+            border-color: rgb(255, 255, 255);
+            color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .filter__button{
+        height: 34px;
+    }
+}

@@ -1,0 +1,28 @@
+.pagination {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.pagination__button {
+  padding: 5px;
+  font-size: 1rem;
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+.pagination__button:hover {
+  background: rgb(32, 35, 41);
+  outline-color: none;
+  border: 1px solid #ffffff;
+  border-color: rgb(255, 255, 255);
+  color: white;
+}
+
+.active .pagination__button {
+  background-color: rgb(32, 35, 41);
+  color: wheat;
+  border: 1px solid #ffffff;
+}/*# sourceMappingURL=Pagination.css.map */
